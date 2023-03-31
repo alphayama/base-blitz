@@ -75,4 +75,4 @@ crashlytics-build.properties
 /*BackUpThisFolder_ButDontShipItWithYourGame/
 
 # ReferenceImageLibrary asset
-/Assets/ARMarker/ReferenceImageLibrary.asset
+[Aa]ssets/ARMarker/ReferenceImageLibrary.asset
