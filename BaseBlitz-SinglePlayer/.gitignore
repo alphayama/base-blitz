@@ -73,3 +73,6 @@ crashlytics-build.properties
 
 # IL2CPP backup
 /*BackUpThisFolder_ButDontShipItWithYourGame/
+
+# ReferenceImageLibrary asset
+/Assets/ARMarker/ReferenceImageLibrary.asset
