@@ -28,7 +28,7 @@ public class ShootScript : MonoBehaviour
         {
             if (hit.transform.tag == "MilitaryBaseItem")
             {
-                hit.transform.GetComponent<HealthScript>().ReduceHealth(10);
+                hit.transform.GetComponent<EnemyHealthScript>().ReduceHealth(10);
             }
         }
     }
