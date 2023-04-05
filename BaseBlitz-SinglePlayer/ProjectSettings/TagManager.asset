@@ -9,6 +9,7 @@ TagManager:
   - DestroySound
   - ShootSound
   - HealthText
+  - HitPlayerSound
   layers:
   - Default
   - TransparentFX
