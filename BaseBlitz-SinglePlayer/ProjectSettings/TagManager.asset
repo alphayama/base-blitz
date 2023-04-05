@@ -10,6 +10,7 @@ TagManager:
   - ShootSound
   - HealthText
   - HitPlayerSound
+  - AAGunShootSound
   layers:
   - Default
   - TransparentFX
