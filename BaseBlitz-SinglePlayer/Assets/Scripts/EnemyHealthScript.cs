@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class HealthScript : MonoBehaviour
+public class EnemyHealthScript : MonoBehaviour
 {
     [SerializeField] int health;
     [SerializeField] AudioSource destroySound;
@@ -35,6 +35,8 @@ public class HealthScript : MonoBehaviour
         healthText.text = health.ToString();
         
     }
+
+    
 
     //IEnumerator HealthDisplay()
     //{
