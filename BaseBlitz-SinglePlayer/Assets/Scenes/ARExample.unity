@@ -1176,7 +1176,6 @@ RectTransform:
   - {fileID: 1999516827}
   - {fileID: 697762601}
   - {fileID: 1935484323}
-  - {fileID: 1552437074}
   - {fileID: 466673748}
   m_Father: {fileID: 0}
   m_RootOrder: 4
