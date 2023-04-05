@@ -8,12 +8,13 @@ public class AAGunAmmoScript : MonoBehaviour
     Vector3 ammoMovemementDirection;
     float ammoDistanceMovedPerFrame;
     AudioSource hitPlayerSound;
+    float ammoSpeed = 1f;
 
     // Start is called before the first frame update
     void Start()
     {
         playerTf = GameObject.FindGameObjectWithTag("Player").transform;
-        ammoDistanceMovedPerFrame = 50f * Time.deltaTime;
+        ammoDistanceMovedPerFrame = ammoSpeed * Time.deltaTime;
         hitPlayerSound = GameObject.FindGameObjectWithTag("HitPlayerSound").GetComponent<AudioSource>();
     }
 
@@ -26,6 +27,7 @@ public class AAGunAmmoScript : MonoBehaviour
         {
              hitPlayerSound.Play();
             //playerTf.GetComponent<HealthScript>.upda
+            Destroy(gameObject);
         }
 
         else
