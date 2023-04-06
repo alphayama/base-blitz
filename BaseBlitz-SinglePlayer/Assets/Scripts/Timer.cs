@@ -7,14 +7,20 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    public float timeValue =90;
-    public TMP_Text timeText;
-    
-    public GameObject militaryBase;
+    public float timeValue = 90;
+    TMP_Text timeText;
+    GameObject timeTextObj;
+    //public GameObject militaryBase;
     // Start is called before the first frame update
     void Start()
     {
         
+        timeTextObj = GameObject.FindGameObjectWithTag("TimerText");
+        Debug.Log("#############################Hellooooooooooooooooooooooooooo#########################################");
+        Debug.Log("------------------------------"+timeTextObj);
+        timeText = timeTextObj.GetComponent<TMP_Text>();
+        
+        timeTextObj.SetActive(true);
     }
 
     // Update is called once per frame

@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 466673750}
   m_Layer: 5
   m_Name: Timer
-  m_TagString: Untagged
+  m_TagString: TimerText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -701,11 +701,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &759577769 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5989558688661652086, guid: b7be98d790c37b743b0ca1c62aeb1670, type: 3}
-  m_PrefabInstance: {fileID: 5989558688269280820}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &794115995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,9 +1028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a4d1ce3d16931438f9cee7695738da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeValue: 10
-  timeText: {fileID: 915885356}
-  militaryBase: {fileID: 759577769}
+  timeValue: 90
 --- !u!1 &920342117
 GameObject:
   m_ObjectHideFlags: 0
@@ -2015,6 +2008,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5703744830597604906, guid: b7be98d790c37b743b0ca1c62aeb1670, type: 3}
+      propertyPath: timeTextObj
+      value: 
+      objectReference: {fileID: 466673747}
     - target: {fileID: 5989558688661652086, guid: b7be98d790c37b743b0ca1c62aeb1670, type: 3}
       propertyPath: m_Name
       value: Military Base
@@ -2033,7 +2030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5989558688661652087, guid: b7be98d790c37b743b0ca1c62aeb1670, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 5989558688661652087, guid: b7be98d790c37b743b0ca1c62aeb1670, type: 3}
       propertyPath: m_LocalPosition.z
