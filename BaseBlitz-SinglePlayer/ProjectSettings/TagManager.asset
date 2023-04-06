@@ -9,6 +9,8 @@ TagManager:
   - DestroySound
   - ShootSound
   - HealthText
+  - HitPlayerSound
+  - AAGunShootSound
   - TimerText
   layers:
   - Default
