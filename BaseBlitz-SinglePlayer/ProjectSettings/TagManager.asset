@@ -11,6 +11,7 @@ TagManager:
   - HealthText
   - HitPlayerSound
   - AAGunShootSound
+  - TimerText
   layers:
   - Default
   - TransparentFX
