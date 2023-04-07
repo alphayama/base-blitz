@@ -7,20 +7,29 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    public float timeValue = 90;
+    public float timeValue;
     
-     TMP_Text timeText;
+    TMP_Text timeText;
     GameObject timeTextObj;
+    int difficultyLevel;
   // public GameObject militaryBase;
     // Start is called before the first frame update
     void Start()
     {
         
         timeTextObj = GameObject.FindGameObjectWithTag("TimerText");
-        Debug.Log("#############################Hellooooooooooooooooooooooooooo#########################################");
-        Debug.Log("------------------------------"+timeTextObj);
+     
         timeText = timeTextObj.GetComponent<TMP_Text>();
-        timeValue = 90;
+        
+        difficultyLevel = PlayerPrefs.GetInt("difficulty", 0);
+
+        switch(difficultyLevel){
+            case 0:timeValue = 120; break;
+            case 1:timeValue = 90; break;
+            case 2:timeValue = 60; break;
+        }
+        
+        
         
        //timeText.SetActive(true);
     }
@@ -45,6 +54,11 @@ public class Timer : MonoBehaviour
             }
             DisplayTimer(timeValue);
        // }
+
+       //back
+    //    if(Input.GetKey(KeyCode.Backspace)){
+    //         SceneManager.LoadScene("StartMenu");
+    //    }
     }
 
    public void DisplayTimer(float toDisplay)
