@@ -1911,14 +1911,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7126231515097560795}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18c98588a5f175441b38348c47187cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: {fileID: 2134255789976664018, guid: 134d45f81f58f3b47a0ac221ce3f1039, type: 3}
   ammoShootFrequencyInSeconds: 6
-  startAmmoShootCountdownInSeconds: 3
 --- !u!1001 &2382474938146521968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2534,14 +2533,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8254741126183568155}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18c98588a5f175441b38348c47187cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: {fileID: 2134255789976664018, guid: 134d45f81f58f3b47a0ac221ce3f1039, type: 3}
-  ammoShootFrequencyInSeconds: 7
-  startAmmoShootCountdownInSeconds: 5
+  ammoShootFrequencyInSeconds: 2
 --- !u!4 &8254741126183739193 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4789211385024503927, guid: eae8713f55e1827478ecfd380f94070d, type: 3}
@@ -4419,8 +4417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: {fileID: 2134255789976664018, guid: 134d45f81f58f3b47a0ac221ce3f1039, type: 3}
-  ammoShootFrequencyInSeconds: 20
-  startAmmoShootCountdownInSeconds: 3
+  ammoShootFrequencyInSeconds: 5
 --- !u!4 &1710361623644283836 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4789211385024503927, guid: eae8713f55e1827478ecfd380f94070d, type: 3}
@@ -4778,14 +4775,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2579184046345283162}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18c98588a5f175441b38348c47187cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: {fileID: 2134255789976664018, guid: 134d45f81f58f3b47a0ac221ce3f1039, type: 3}
-  ammoShootFrequencyInSeconds: 10
-  startAmmoShootCountdownInSeconds: 3
+  ammoShootFrequencyInSeconds: 4
 --- !u!4 &2579184046345321080 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4789211385024503927, guid: eae8713f55e1827478ecfd380f94070d, type: 3}
@@ -4877,14 +4873,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2441990297117753668}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18c98588a5f175441b38348c47187cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: {fileID: 2134255789976664018, guid: 134d45f81f58f3b47a0ac221ce3f1039, type: 3}
-  ammoShootFrequencyInSeconds: 8
-  startAmmoShootCountdownInSeconds: 7
+  ammoShootFrequencyInSeconds: 3
 --- !u!1001 &7203829063829935307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5930,14 +5925,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4111939708359563811}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18c98588a5f175441b38348c47187cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: {fileID: 2134255789976664018, guid: 134d45f81f58f3b47a0ac221ce3f1039, type: 3}
-  ammoShootFrequencyInSeconds: 12
-  startAmmoShootCountdownInSeconds: 1
+  ammoShootFrequencyInSeconds: 7
 --- !u!4 &4111939708360050177 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4789211385024503927, guid: eae8713f55e1827478ecfd380f94070d, type: 3}
