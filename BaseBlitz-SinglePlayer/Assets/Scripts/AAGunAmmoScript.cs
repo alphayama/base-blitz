@@ -23,10 +23,12 @@ public class AAGunAmmoScript : MonoBehaviour
     {
         ammoMovemementDirection = playerTf.position - transform.position;
         
+        // Checks if the ammunition is in the vicinity of the player
         if (ammoMovemementDirection.magnitude <= ammoDistanceMovedPerFrame)
         {
              hitPlayerSound.Play();
             //playerTf.GetComponent<HealthScript>.upda
+            playerTf.GetComponent<PlayerHealthBehaviour>().PlayerTakeDamage(5);
             Destroy(gameObject);
         }
 
@@ -34,5 +36,12 @@ public class AAGunAmmoScript : MonoBehaviour
         {
             transform.Translate(ammoMovemementDirection.normalized * ammoDistanceMovedPerFrame, Space.World);
         }
+    }
+
+    // Automatically destroy the AA Gun shell after 15 seconds.
+    IEnumerator AutoDestroyAmmo()
+    {
+        yield return new WaitForSeconds(15);
+        Destroy(gameObject);
     }
 }
