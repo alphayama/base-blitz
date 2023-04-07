@@ -6,7 +6,7 @@ public class PlayerHealthManager : MonoBehaviour
 {
 
     public static PlayerHealthManager playerHealthManager {get;private set;}
-    public HealthBar playerHealth= new HealthBar(100,100);
+    public HealthBar playerHealth= new HealthBar(1000,1000);
     
     // Start is called before the first frame update
     
