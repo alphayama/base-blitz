@@ -28,7 +28,7 @@ public class AAGunAmmoScript : MonoBehaviour
         {
              hitPlayerSound.Play();
             //playerTf.GetComponent<HealthScript>.upda
-            playerTf.GetComponent<PlayerHealthBehaviour>().PlayerTakeDamage(5);
+            playerTf.GetComponent<PlayerHealthBehaviour>().PlayerTakeDamage(10);
             Destroy(gameObject);
         }
 
