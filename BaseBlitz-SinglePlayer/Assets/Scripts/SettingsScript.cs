@@ -7,6 +7,7 @@ public class SettingsScript : MonoBehaviour
 {
     [SerializeField] GameObject mainMenuUI;
     [SerializeField] GameObject settingsUI;
+    [SerializeField] GameObject helpUI;
     [SerializeField] TextMeshProUGUI difficultyButtonText;
 
     int difficultyLevel;
@@ -47,6 +48,16 @@ public class SettingsScript : MonoBehaviour
                 PlayerPrefs.SetInt("difficulty", 0);
                 break;
         }
+    }
+
+    public void ShowHelp()
+    {
+        helpUI.SetActive(true);
+    }
+
+    public void HideHelp()
+    {
+        helpUI.SetActive(false);
     }
 
     // Update is called once per frame
