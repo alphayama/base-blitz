@@ -12,6 +12,9 @@ TagManager:
   - HitPlayerSound
   - AAGunShootSound
   - TimerText
+  - Collectibles
+  - AmmoCounter
+  - ShieldCounter
   layers:
   - Default
   - TransparentFX

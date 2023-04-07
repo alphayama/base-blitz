@@ -23,7 +23,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 16520588567668017869
       m_GuidHigh: 3816987084761098747
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 0.081, y: 0.081}
+    m_SpecifySize: 1
     m_Name: qr-code
     m_Texture: {fileID: 0}
