@@ -12,8 +12,13 @@ public class rayCast : MonoBehaviour
     public float laserDuration = 0.05f;
 
     LineRenderer laserLine;
+<<<<<<< HEAD
     bool isRun = false;
     float fireTimer;
+=======
+    float fireTimer;
+    bool isRun = false;
+>>>>>>> 50e5634 (Try Laser)
 
     void Awake()
     {
@@ -22,18 +27,33 @@ public class rayCast : MonoBehaviour
 
     void Update()
     {
+<<<<<<< HEAD
         Debug.Log("******************In rayCast ************");
         fireTimer += Time.deltaTime;
         if (isRun) { 
+=======
+        if (isRun)
+        {
+            Debug.Log("******************In rayCast ************");
+            fireTimer += Time.deltaTime;
+>>>>>>> 50e5634 (Try Laser)
             fireTimer = 0;
             laserLine.SetPosition(0, laserOrigin.position);
             Vector3 rayOrigin = playerCamera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
             RaycastHit hit;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50e5634 (Try Laser)
             if (Physics.Raycast(rayOrigin, playerCamera.transform.forward, out hit, gunRange))
             {
                 laserLine.SetPosition(1, hit.point);
                 Destroy(hit.transform.gameObject);
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 50e5634 (Try Laser)
             else
             {
                 laserLine.SetPosition(1, rayOrigin + (playerCamera.transform.forward * gunRange));
