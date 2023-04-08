@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 114957245869706142}
   - component: {fileID: 82516303070720438}
   - component: {fileID: 135964333003620648}
+  - component: {fileID: 7944904048804114356}
   m_Layer: 2
   m_Name: HealthPackRed
-  m_TagString: Untagged
+  m_TagString: Health
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,14 +29,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465207541995380}
-  m_LocalRotation: {x: -0.007283776, y: 0.12166237, z: 0.09982238, w: 0.9875124}
-  m_LocalPosition: {x: 0.15999995, y: -0.49, z: 0.37999988}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.17, y: 0.17, z: 0.17}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -2.216, y: 13.828001, z: 11.275001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33729083707108728
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -98,11 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1315172d7ad53634e952f7d8f3c02048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollectibleType: 0
+  CollectibleType: 1
   rotate: 1
   rotationSpeed: 10
-  collectSound: {fileID: 0}
+  collectSound: {fileID: 8300000, guid: 310058fd1e7fd4c91b50fffd035fb73a, type: 3}
   collectEffect: {fileID: 1702657300312902, guid: a45c51da10cf1a84abc6a99c06951e3f, type: 3}
+  distanceThreshold: 0.6
 --- !u!82 &82516303070720438
 AudioSource:
   m_ObjectHideFlags: 0
@@ -210,5 +212,18 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.3367196
-  m_Center: {x: 0.000000048428774, y: -1.138846e-15, z: -7.2164497e-16}
+  m_Radius: 0.3323552
+  m_Center: {x: 0.000000049670536, y: -0.039604902, z: 0}
+--- !u!65 &7944904048804114356
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465207541995380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2921083, y: 0.67343915, z: 0.67343915}
+  m_Center: {x: 0.057515003, y: 0, z: 0}
