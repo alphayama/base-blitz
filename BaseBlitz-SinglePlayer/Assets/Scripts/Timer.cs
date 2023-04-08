@@ -56,9 +56,9 @@ public class Timer : MonoBehaviour
        // }
 
        //back
-    //    if(Input.GetKey(KeyCode.Backspace)){
-    //         SceneManager.LoadScene("StartMenu");
-    //    }
+       if(Input.GetKeyDown(KeyCode.Backspace)){
+            SceneManager.LoadScene("StartMenu");
+       }
     }
 
    public void DisplayTimer(float toDisplay)
