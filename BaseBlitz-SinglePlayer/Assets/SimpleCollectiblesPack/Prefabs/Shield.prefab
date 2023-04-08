@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 82438506015820482}
   - component: {fileID: 114510845023260786}
   - component: {fileID: 135105148080420062}
+  - component: {fileID: 4043173761196020789}
   m_Layer: 2
   m_Name: Shield
-  m_TagString: Untagged
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1844328801433658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.17, y: 0.17, z: 0.17}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -197,8 +198,9 @@ MonoBehaviour:
   CollectibleType: 0
   rotate: 1
   rotationSpeed: 10
-  collectSound: {fileID: 0}
+  collectSound: {fileID: 8300000, guid: 310058fd1e7fd4c91b50fffd035fb73a, type: 3}
   collectEffect: {fileID: 1702657300312902, guid: a45c51da10cf1a84abc6a99c06951e3f, type: 3}
+  distanceThreshold: 0.8
 --- !u!135 &135105148080420062
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -210,5 +212,18 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.61870074
+  m_Radius: 0.3897611
+  m_Center: {x: -0.024745762, y: -0.6718365, z: 0.0046120286}
+--- !u!65 &4043173761196020789
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844328801433658}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1674186, y: 1.2374015, z: 0.23103502}
   m_Center: {x: -0.024745822, y: -0.074590534, z: 0.0046120174}
