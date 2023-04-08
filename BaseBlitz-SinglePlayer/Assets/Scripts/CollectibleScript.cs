@@ -13,15 +13,17 @@ public class CollectibleScript : MonoBehaviour {
 	public float rotationSpeed;
 	public AudioClip collectSound;
 	public GameObject collectEffect;
-	public float distanceThreshold = 0.3f; 
+	public float distanceThreshold = 0.8f; 
     private GameObject arCamera;
 	CollectibleCounter ammo;
 	CollectibleCounter shield;
-	
+	HealthBarSoreController health;
+
 	void Start () {
 		arCamera= GameObject.FindGameObjectWithTag("Player");	
-		ammo=GameObject.Find("Ammo").GetComponent<CollectibleCounter>();
-		shield=GameObject.Find("Shield").GetComponent<CollectibleCounter>();
+		ammo=GameObject.Find("AmmoButton").GetComponent<CollectibleCounter>();
+		shield=GameObject.Find("ShieldButton").GetComponent<CollectibleCounter>();
+
 	}
 	
 	// Update is called once per frame
