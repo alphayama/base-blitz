@@ -17,8 +17,8 @@ public class Timer : MonoBehaviour
     {
         
         timeTextObj = GameObject.FindGameObjectWithTag("TimerText");
-        Debug.Log("#############################Hellooooooooooooooooooooooooooo#########################################");
-        Debug.Log("------------------------------"+timeTextObj);
+        //Debug.Log("#############################Hellooooooooooooooooooooooooooo#########################################");
+        //Debug.Log("------------------------------"+timeTextObj);
         timeText = timeTextObj.GetComponent<TMP_Text>();
         timeValue = 90;
         
@@ -49,7 +49,7 @@ public class Timer : MonoBehaviour
 
    public void DisplayTimer(float toDisplay)
     { 
-        Debug.Log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@---------- in Display"+timeText.text);
+        //Debug.Log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@---------- in Display"+timeText.text);
         if(toDisplay<0)
         {
             toDisplay=0;
