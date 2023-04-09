@@ -30,38 +30,35 @@ public class ShootScript : MonoBehaviour
     public void Shoot()
     {
         shootSound.Play();
-        tryLaser();
 
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit))
         {
-            Debug.Log("In shoot");
+            //Debug.Log("In shoot");
             if (hit.transform.tag == "MilitaryBaseItem")
             {
-               Debug.Log("In millitartBase");
-               hit.transform.GetComponent<EnemyHealthScript>().ReduceHealth(10);
-          
+                //Debug.Log("In millitartBase");
+                hit.transform.GetComponent<EnemyHealthScript>().ReduceHealth(10);
+
             }
         }
 
+        DrawLaser();
+
     }
 
-    public void tryLaser()
+    public void DrawLaser()
     {
-        Debug.Log("In try Laser");
+        //Debug.Log("In try Laser");
         fireTimer += Time.deltaTime;
         fireTimer = 0;
         //laserLine.SetPosition(0, laserOrigin.position);
         laserLine.SetPosition(0, new Vector3(0.3f, 0.3f, 0));
         //Vector3 rayOrigin = playerCamera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
         Vector3 rayOrigin = playerCamera.ViewportToWorldPoint(new Vector3(0f, 0f, 0));
-        //Vector3 rayOrigin = Camera.main.transform.position;
-        RaycastHit hit;
 
-        //if (Physics.Raycast(rayOrigin, playerCamera.transform.forward, out hit, gunRange))
-        //{
-        if(Physics.Raycast(rayOrigin, playerCamera.transform.forward, out hit)) { 
+        if (Physics.Raycast(rayOrigin, playerCamera.transform.forward, out hit))
+        {
             laserLine.SetPosition(1, hit.point);
-            Destroy(hit.transform.gameObject);
         }
 
         else
