@@ -2361,7 +2361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd452c3095af240fc8bc2328ee8263fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectibleCount: 150
+  collectibleCount: 100
   collectibleText: {fileID: 1021036865}
 --- !u!1 &1296032206
 GameObject:
@@ -2533,6 +2533,7 @@ MonoBehaviour:
   - {fileID: 1465207541995380, guid: a5ad3b53c234b9040b754b2c2c9d8fc6, type: 3}
   - {fileID: 1825870777587358, guid: 9568f15e6607c70469b5b2657c7cd0b3, type: 3}
   - {fileID: 1844328801433658, guid: 9867510fa3e6d11479b56ff45cf8b2ca, type: 3}
+  - {fileID: 1465207541995380, guid: a5ad3b53c234b9040b754b2c2c9d8fc6, type: 3}
 --- !u!1 &1520606295
 GameObject:
   m_ObjectHideFlags: 0
