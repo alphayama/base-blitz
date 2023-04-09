@@ -16,6 +16,8 @@ public class ShootScript : MonoBehaviour
     LineRenderer laserLine;
     float fireTimer = 0f;
 
+    public GameObject explosionEffect;
+
     int healthReduction = 10;
 
     // Start is called before the first frame update
@@ -66,9 +68,11 @@ public class ShootScript : MonoBehaviour
             }
         }
         DrawLaser();
+        showExplosion();
         ammoCount.collectibleCount-=1;
         }
     }
+  
 
     public void DrawLaser()
     {
@@ -93,6 +97,10 @@ public class ShootScript : MonoBehaviour
         StartCoroutine(ShootLaser());
     }
 
+    public void showExplosion()
+    {
+        Instantiate(explosionEffect, Camera.main.transform.position, Camera.main.transform.rotation);
+    }
     IEnumerator ShootLaser()
     {
         laserLine.enabled = true;
