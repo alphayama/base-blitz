@@ -17,13 +17,14 @@ public class CollectibleScript : MonoBehaviour {
     private GameObject arCamera;
 	CollectibleCounter ammo;
 	CollectibleCounter shield;
-	HealthBarSoreController health;
+	Transform playerTf;
+	int playerHealthAdd = 500;
 
 	void Start () {
 		arCamera= GameObject.FindGameObjectWithTag("Player");	
 		ammo=GameObject.Find("AmmoButton").GetComponent<CollectibleCounter>();
 		shield=GameObject.Find("ShieldButton").GetComponent<CollectibleCounter>();
-
+		playerTf = GameObject.FindGameObjectWithTag("Player").transform;
 	}
 	
 	// Update is called once per frame
@@ -51,11 +52,11 @@ public class CollectibleScript : MonoBehaviour {
 			shield.collectibleCount+=1;
 		}
 		if (CollectibleType == CollectibleTypes.Health) {
-
+			playerTf.GetComponent<PlayerHealthBehaviour>().PlayerTakeHeal(playerHealthAdd);
 			Debug.Log ("Health collected");
 		}
 		if (CollectibleType == CollectibleTypes.Ammunition) {
-			ammo.collectibleCount+=1;
+			ammo.collectibleCount+=5;
 		}
 		Destroy(gameObject);
 	}

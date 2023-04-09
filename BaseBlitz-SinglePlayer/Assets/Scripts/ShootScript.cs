@@ -12,7 +12,7 @@ public class ShootScript : MonoBehaviour
     public float gunRange = 50f;
     public float fireRate = 0.2f;
     public float laserDuration = 0.05f;
-
+    CollectibleCounter ammoCount;
     LineRenderer laserLine;
     float fireTimer = 0f;
 
@@ -22,7 +22,7 @@ public class ShootScript : MonoBehaviour
     void Start()
     {
         laserLine = GetComponent<LineRenderer>();
-
+        ammoCount=GameObject.Find("AmmoButton").GetComponent<CollectibleCounter>();
         switch(PlayerPrefs.GetInt("difficulty", 0))
         {
             case 0: healthReduction = 10; break;
@@ -38,8 +38,9 @@ public class ShootScript : MonoBehaviour
 
     public void Shoot()
     {
-        shootSound.Play();
+        if(ammoCount.collectibleCount>0){
 
+        shootSound.Play();
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit))
         {
             //Debug.Log("In shoot");
@@ -64,9 +65,9 @@ public class ShootScript : MonoBehaviour
 
             }
         }
-
         DrawLaser();
-
+        ammoCount.collectibleCount-=1;
+        }
     }
 
     public void DrawLaser()
