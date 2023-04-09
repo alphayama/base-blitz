@@ -19,6 +19,7 @@ TagManager:
   - Ammunition
   - Health
   - healthpack
+  - HealthBar
   layers:
   - Default
   - TransparentFX
