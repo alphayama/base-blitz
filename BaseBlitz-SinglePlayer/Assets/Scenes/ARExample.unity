@@ -773,6 +773,7 @@ GameObject:
   - component: {fileID: 505460488}
   - component: {fileID: 505460492}
   - component: {fileID: 505460493}
+  - component: {fileID: 505460494}
   m_Layer: 5
   m_Name: ShieldButton
   m_TagString: Untagged
@@ -844,7 +845,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 505460489}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 505460494}
+        m_TargetAssemblyTypeName: ShieldPowers, Assembly-CSharp
+        m_MethodName: SetShieldActive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &505460489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -993,6 +1006,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectibleCount: 0
   collectibleText: {fileID: 257917753}
+--- !u!114 &505460494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505460486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88bf605fd43547debb909c2eb502b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shieldActive: 0
 --- !u!1 &652507420
 GameObject:
   m_ObjectHideFlags: 0

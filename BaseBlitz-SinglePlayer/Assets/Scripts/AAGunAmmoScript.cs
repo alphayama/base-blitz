@@ -10,6 +10,8 @@ public class AAGunAmmoScript : MonoBehaviour
     AudioSource hitPlayerSound;
     float ammoSpeed = 1f;
     int playerDamage = 10;
+    ShieldPowers shield;
+
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +19,7 @@ public class AAGunAmmoScript : MonoBehaviour
         playerTf = GameObject.FindGameObjectWithTag("Player").transform;
         ammoDistanceMovedPerFrame = ammoSpeed * Time.deltaTime;
         hitPlayerSound = GameObject.FindGameObjectWithTag("HitPlayerSound").GetComponent<AudioSource>();
-
+        shield=GameObject.Find("ShieldButton").GetComponent<ShieldPowers>();
         switch (PlayerPrefs.GetInt("difficulty", 0))
         {
             case 0: playerDamage = 10; break;
@@ -34,9 +36,10 @@ public class AAGunAmmoScript : MonoBehaviour
         // Checks if the ammunition is in the vicinity of the player
         if (ammoMovemementDirection.magnitude <= ammoDistanceMovedPerFrame)
         {
-             hitPlayerSound.Play();
-            //playerTf.GetComponent<HealthScript>.upda
-            playerTf.GetComponent<PlayerHealthBehaviour>().PlayerTakeDamage(playerDamage);
+            if(shield.shieldActive==false){
+                hitPlayerSound.Play();
+                playerTf.GetComponent<PlayerHealthBehaviour>().PlayerTakeDamage(playerDamage);
+            }
             Destroy(gameObject);
         }
 
