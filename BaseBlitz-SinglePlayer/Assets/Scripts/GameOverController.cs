@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GameOverController : MonoBehaviour
 {
-    float timeValue=10;
+    float timeValue=6;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +26,10 @@ public class GameOverController : MonoBehaviour
                 SceneManager.LoadScene("StartMenu");
                // GameOver();
             }
+    }
+
+    public void LoadStartMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
     }
 }

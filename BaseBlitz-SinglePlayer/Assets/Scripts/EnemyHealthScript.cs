@@ -23,6 +23,7 @@ public class EnemyHealthScript : MonoBehaviour
         if (health <= 0)
         {
             destroySound.Play();
+            ProgressScript.UpdateProgress();
             Destroy(gameObject);
         }
     }
