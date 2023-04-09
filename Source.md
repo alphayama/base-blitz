@@ -1,4 +1,6 @@
-Unity Assets-
+# Sources
+
+## Unity Assets
 1. https://assetstore.unity.com/packages/3d/vehicles/land/apc-military-low-poly-3d-vehicle-201843
 2. https://assetstore.unity.com/packages/3d/props/guns/fixed-machine-gun-turret-169039
 3. https://assetstore.unity.com/packages/3d/environments/military-radar-93579
@@ -7,12 +9,13 @@ Unity Assets-
 6. https://assetstore.unity.com/packages/3d/chainlink-fences-73107
 7. https://assetstore.unity.com/packages/3d/props/army-bunker-2093
 
-Video tutorial-
-1. https://www.youtube.com/watch?v=FBDN4b9PGgE
-2. https://www.youtube.com/watch?v=oqidgRQAMB8
-
-Audio Sources-
+## Audio Sources
 1. Flak_Shot.wav by kantouth - https://freesound.org/people/kantouth/sounds/104399/
 2. Explosion006.wav by klangfabrik - https://freesound.org/people/klangfabrik/sounds/265303/
 3. Laser2 by Daleonfire - https://freesound.org/people/Daleonfire/sounds/505235/
 4. Bullet - Metal Hit (4) by FilmmakersManual - https://freesound.org/people/FilmmakersManual/sounds/522508/
+5. item-pickup-v1.wav by Jocabundus - https://freesound.org/people/Jocabundus/sounds/678384/
+
+## Video Tutorials
+1. https://www.youtube.com/watch?v=FBDN4b9PGgE
+2. https://www.youtube.com/watch?v=oqidgRQAMB8
