@@ -8,6 +8,7 @@
 5. https://assetstore.unity.com/packages/3d/vehicles/land/gaz-66-91665
 6. https://assetstore.unity.com/packages/3d/chainlink-fences-73107
 7. https://assetstore.unity.com/packages/3d/props/army-bunker-2093
+8. https://assetstore.unity.com/packages/3d/vehicles/air/transport-helicopter-3911
 
 ## Audio Sources
 1. Flak_Shot.wav by kantouth - https://freesound.org/people/kantouth/sounds/104399/
