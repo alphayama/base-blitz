@@ -38,8 +38,9 @@ public class ShootScript : MonoBehaviour
 
     public void Shoot()
     {
-        shootSound.Play();
+        if(ammoCount.collectibleCount>0){
 
+        shootSound.Play();
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit))
         {
             //Debug.Log("In shoot");
@@ -64,9 +65,9 @@ public class ShootScript : MonoBehaviour
 
             }
         }
-
         DrawLaser();
         ammoCount.collectibleCount-=1;
+        }
     }
 
     public void DrawLaser()
