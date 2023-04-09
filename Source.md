@@ -16,6 +16,9 @@
 4. Bullet - Metal Hit (4) by FilmmakersManual - https://freesound.org/people/FilmmakersManual/sounds/522508/
 5. item-pickup-v1.wav by Jocabundus - https://freesound.org/people/Jocabundus/sounds/678384/
 
-## Video Tutorials
+## Tutorials
 1. https://www.youtube.com/watch?v=FBDN4b9PGgE
 2. https://www.youtube.com/watch?v=oqidgRQAMB8
+3. https://jabberbyte.com/how-to-spawn-object-at-random-intervals/
+4. https://www.youtube.com/watch?v=5GWRPwuWtsQ
+5. https://www.youtube.com/watch?v=YjpKxjzwado
