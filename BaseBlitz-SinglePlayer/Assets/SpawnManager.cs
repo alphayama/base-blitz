@@ -14,7 +14,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnRandomObject()
     {
-        Vector3 spawnPos = new Vector3(Random.Range(2.4f, -1.8f), Random.Range(0.5f, 1.0f), 1f); //Generate random object index and random spawn position
+        Vector3 spawnPos = new Vector3(Random.Range(2.1f, -1.8f), Random.Range(0.5f, 0.8f), 1f); //Generate random object index and random spawn position
 
         int objectIndex = Random.Range(0, prefabs.Length); //Method scope to find array size and
         //prefabs[objectIndex].gameObject.transform.localScale += new Vector3(0.01f, 0.01f, 0.01f);
@@ -26,7 +26,7 @@ public class SpawnManager : MonoBehaviour
         while (true)
         {
             SpawnRandomObject();
-            yield return new WaitForSeconds(Random.Range(8, 30));
+            yield return new WaitForSeconds(Random.Range(5,30));
 
         }
     }
