@@ -16,10 +16,19 @@ public class ShootScript : MonoBehaviour
     LineRenderer laserLine;
     float fireTimer = 0f;
 
+    int healthReduction = 10;
+
     // Start is called before the first frame update
     void Start()
     {
         laserLine = GetComponent<LineRenderer>();
+
+        switch(PlayerPrefs.GetInt("difficulty", 0))
+        {
+            case 0: healthReduction = 10; break;
+            case 1: healthReduction = 7; break;
+            case 2: healthReduction = 5; break;
+        }
     }
 
     // Update is called once per frame
@@ -37,7 +46,21 @@ public class ShootScript : MonoBehaviour
             if (hit.transform.tag == "MilitaryBaseItem")
             {
                 //Debug.Log("In millitartBase");
-                hit.transform.GetComponent<EnemyHealthScript>().ReduceHealth(10);
+                hit.transform.GetComponent<EnemyHealthScript>().ReduceHealth(healthReduction);
+
+            }
+
+            else if (hit.transform.parent.tag == "MilitaryBaseItem")
+            {
+                //Debug.Log("In millitartBase");
+                hit.transform.parent.GetComponent<EnemyHealthScript>().ReduceHealth(healthReduction);
+
+            }
+
+            else if (hit.transform.parent.parent.tag == "MilitaryBaseItem")
+            {
+                //Debug.Log("In millitartBase");
+                hit.transform.parent.parent.GetComponent<EnemyHealthScript>().ReduceHealth(healthReduction);
 
             }
         }

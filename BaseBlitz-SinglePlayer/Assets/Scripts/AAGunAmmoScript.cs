@@ -9,6 +9,7 @@ public class AAGunAmmoScript : MonoBehaviour
     float ammoDistanceMovedPerFrame;
     AudioSource hitPlayerSound;
     float ammoSpeed = 1f;
+    int playerDamage = 10;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,13 @@ public class AAGunAmmoScript : MonoBehaviour
         playerTf = GameObject.FindGameObjectWithTag("Player").transform;
         ammoDistanceMovedPerFrame = ammoSpeed * Time.deltaTime;
         hitPlayerSound = GameObject.FindGameObjectWithTag("HitPlayerSound").GetComponent<AudioSource>();
+
+        switch (PlayerPrefs.GetInt("difficulty", 0))
+        {
+            case 0: playerDamage = 10; break;
+            case 1: playerDamage = 20; break;
+            case 2: playerDamage = 30; break;
+        }
     }
 
     // Update is called once per frame
@@ -28,7 +36,7 @@ public class AAGunAmmoScript : MonoBehaviour
         {
              hitPlayerSound.Play();
             //playerTf.GetComponent<HealthScript>.upda
-            playerTf.GetComponent<PlayerHealthBehaviour>().PlayerTakeDamage(10);
+            playerTf.GetComponent<PlayerHealthBehaviour>().PlayerTakeDamage(playerDamage);
             Destroy(gameObject);
         }
 

@@ -7,7 +7,7 @@ public class EnemyHealthScript : MonoBehaviour
 {
     [SerializeField] int health;
     [SerializeField] AudioSource destroySound;
-    [SerializeField] TextMeshProUGUI healthText;
+    //[SerializeField] TextMeshProUGUI healthText;
     
 
     // Start is called before the first frame update
@@ -30,9 +30,9 @@ public class EnemyHealthScript : MonoBehaviour
     public void ReduceHealth(int damage)
     {
         health -= damage;
-        healthText.transform.position = new Vector3(transform.position.x, transform.position.y + 0.2f, transform.position.z);
-        healthText.transform.LookAt(Camera.main.transform);
-        healthText.text = health.ToString();
+        //healthText.transform.position = new Vector3(transform.position.x, transform.position.y + 0.2f, transform.position.z);
+        //healthText.transform.LookAt(Camera.main.transform);
+        //healthText.text = health.ToString();
         
     }
 
