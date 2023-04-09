@@ -56,7 +56,7 @@ public class CollectibleScript : MonoBehaviour {
 			Debug.Log ("Health collected");
 		}
 		if (CollectibleType == CollectibleTypes.Ammunition) {
-			ammo.collectibleCount+=5;
+			ammo.collectibleCount+=10;
 		}
 		Destroy(gameObject);
 	}
