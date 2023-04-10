@@ -9,7 +9,7 @@ public class CollectibleCounter : MonoBehaviour
     public int collectibleCount;
     //public int shieldCount;
     public TextMeshProUGUI collectibleText;
-    //public TextMeshProUGUI shieldtext;
+    
     // Start is called before the first frame update
     void Start()
     {
