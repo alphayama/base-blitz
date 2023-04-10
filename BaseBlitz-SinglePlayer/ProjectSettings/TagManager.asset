@@ -17,9 +17,8 @@ TagManager:
   - ShieldCounter
   - Shield
   - Ammunition
-  - Health
-  - healthpack
   - HealthBar
+  - ShieldActiveText
   layers:
   - Default
   - TransparentFX
