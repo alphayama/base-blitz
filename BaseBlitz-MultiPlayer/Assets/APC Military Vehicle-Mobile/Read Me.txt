@@ -1,0 +1,20 @@
+
+This Game Asset contains APC Military Vehicle with texture.The model are optimized for Mobile Game with only Diffuse texture are use to produce high quality details. All vehicles parts are carefully named and ready to animate with detached wheel.
+
+Each model uses only a Diffuse texture map where all information are baked into a single texture and hence increases game performance.
+
+You are free to use this vehicle in any of your game project.
+
+CHECK OUT OUR COMPLETE MILITARY VEHICLE PACK : http://u3d.as/19mq
+
+Poly Count : 5507 tris
+
+Model Format: Fbx
+
+Texture Format: PNG
+
+Texture Resolution: Car_paint 1024x1024 / Wheel 512x512
+
+THANK YOU for choosing our Game Asste
+
+

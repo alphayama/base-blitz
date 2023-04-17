@@ -1,5 +1,20 @@
 # Sources
 
+## SDKs
+Our project uses the AR Foundation, AR Core (Android) and AR Kit packages for providing Augmented Reality functionality.
+
+You can download the packages from the Unity Package Manager using the following steps:
+
+1. In Unity Editor, go to Windows > Package Manager.
+2. Select _Packages: Unity registry_ option from the dropdown.
+3. Search for AR in the search box.
+4. Install AR Foundation. 
+5. Install ARCore XR Plugin for Android and ARKit XR Plugin for iOS.
+
+Note: 
+- Make sure the version numbers for AR Foundation, ARCore XR Plugin and ARKit XR Plugin are same. 
+- ARKit requires XCode installed on your system.
+
 ## Unity Assets
 1. https://assetstore.unity.com/packages/3d/vehicles/land/apc-military-low-poly-3d-vehicle-201843
 2. https://assetstore.unity.com/packages/3d/props/guns/fixed-machine-gun-turret-169039
@@ -9,6 +24,8 @@
 6. https://assetstore.unity.com/packages/3d/chainlink-fences-73107
 7. https://assetstore.unity.com/packages/3d/props/army-bunker-2093
 8. https://assetstore.unity.com/packages/3d/vehicles/air/transport-helicopter-3911
+9. https://assetstore.unity.com/packages/3d/props/simple-collectibles-pack-123092
+10. https://assetstore.unity.com/packages/tools/particles-effects/true-explosions-21893
 
 ## Audio Sources
 1. Flak_Shot.wav by kantouth - https://freesound.org/people/kantouth/sounds/104399/

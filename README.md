@@ -20,10 +20,4 @@ User will use their phone to scan an AR Marker (QR Code). We have attached a cop
 
 ## YouTube Link
 
-[example](example.com)
-
---------------------------------------------
-Create a “ReadMe” document that explains which Unity scene contains your preliminary prototype. The document must explain what the interaction techniques are and how to use them with the Android phone and controller. If you’re using other types of VR equipment in addition to Android phone, you must explain what the interaction techniques are and how to use them with your equipment along with the model’s name of the equipment. If your project involves multiplayers, you must explain how to operate with multiple devices. Also, include a YouTube link of your video.
-
-------------------------------
-
+[https://youtu.be/6qMpQg-wkOw](https://youtu.be/6qMpQg-wkOw)
