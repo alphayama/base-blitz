@@ -34,4 +34,11 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale=1f;
         SceneManager.LoadScene("ARExample");
     }
+
+    public void Home(){
+        Time.timeScale=1f;
+        pauseMenu.SetActive(false);
+        SceneManager.LoadScene("StartMenu");
+
+    }
 }
