@@ -1,0 +1,11 @@
+Pack of five building models for your desert game.
+
+• PBR materials
+• Textures resolution : 4096 x 4096
+• 5 models
+• 5 materials
+• 15 textures 
+
+In FBX folder are original 3D models.
+
+If you have question you can contact me on : boborlukas@gmail.com
