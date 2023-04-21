@@ -256,7 +256,7 @@
       "native_offset" : "0x00000"
    }
 ,
-  {
+   {
       "is_managed" : "false",
       "native_address" : "0x2934479a8",
       "native_offset" : "0x00000"

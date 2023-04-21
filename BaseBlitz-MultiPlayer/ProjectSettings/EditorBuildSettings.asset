@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameWon.unity
     guid: 8fd876dc48d80f24099c43da77ac2051
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 6fbfc0d44de3d4c14a8697ef0ce4110d
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 8823f4f13a1184fb29efbf9ebfc569bd
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d7893e0e6994c9843be5a52c8fcd8b59, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: f8276155b80a84aafb1d310f28d244c1, type: 2}

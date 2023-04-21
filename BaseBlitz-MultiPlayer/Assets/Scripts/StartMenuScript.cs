@@ -7,7 +7,7 @@ public class StartMenuScript : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("ARExample");
+        SceneManager.LoadScene("Loading");
     }
 
     public void ChangeSettings()
