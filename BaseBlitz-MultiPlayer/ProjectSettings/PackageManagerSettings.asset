@@ -25,7 +25,17 @@ MonoBehaviour:
     m_Scopes: []
     m_IsDefault: 1
     m_Capabilities: 7
-  m_UserSelectedRegistryName: 
+    m_ConfigSource: 0
+  - m_Id: scoped:project:Normal
+    m_Name: Normal
+    m_Url: https://normcore-registry.normcore.io
+    m_Scopes:
+    - com.normalvr
+    - io.normcore
+    m_IsDefault: 0
+    m_Capabilities: 0
+    m_ConfigSource: 4
+  m_UserSelectedRegistryName: Normal
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
     m_Modified: 0
