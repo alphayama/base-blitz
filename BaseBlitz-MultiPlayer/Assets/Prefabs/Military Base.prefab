@@ -516,7 +516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 400
   destroySound: {fileID: 0}
 --- !u!4 &218374932183409401 stripped
 Transform:
@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &768806624909665042 stripped
 Transform:
@@ -916,7 +916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 55
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &680162795064277642
 PrefabInstance:
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 80
+  health: 200
   destroySound: {fileID: 0}
 --- !u!1 &5406252580246243039 stripped
 GameObject:
@@ -1129,7 +1129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &867798056489786034
 PrefabInstance:
@@ -1247,7 +1247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &1741734621098627148
 PrefabInstance:
@@ -1344,7 +1344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 400
   destroySound: {fileID: 0}
 --- !u!1001 &1794052859382475297
 PrefabInstance:
@@ -1462,7 +1462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &1830157833900906647
 PrefabInstance:
@@ -1580,7 +1580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &2143199093317404910
 PrefabInstance:
@@ -1751,7 +1751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &2347439385797364366
 PrefabInstance:
@@ -1931,7 +1931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &3336548212027940746 stripped
 Transform:
@@ -2118,7 +2118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &7050994121400916348 stripped
 Transform:
@@ -2236,7 +2236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 45
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &7985632288314524439 stripped
 Transform:
@@ -2338,7 +2338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 150
+  health: 400
   destroySound: {fileID: 0}
 --- !u!1001 &3528580413102047054
 PrefabInstance:
@@ -2518,7 +2518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &4406982327332573985 stripped
 Transform:
@@ -2636,7 +2636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &8303572764903702900 stripped
 Transform:
@@ -2754,7 +2754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 45
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &9081107621575170124 stripped
 Transform:
@@ -2872,7 +2872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 45
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &9129200316859057726 stripped
 Transform:
@@ -3048,7 +3048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &4508508113737228827
 PrefabInstance:
@@ -3145,7 +3145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &4773851249979048371
 PrefabInstance:
@@ -3617,7 +3617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 45
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &5786567920008164035
 PrefabInstance:
@@ -4006,7 +4006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &6592576631517821107 stripped
 Transform:
@@ -4381,7 +4381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 110
+  health: 250
   destroySound: {fileID: 0}
 --- !u!1001 &6457260974006801385
 PrefabInstance:
@@ -4478,7 +4478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &6473409079780083134
 PrefabInstance:
@@ -4596,7 +4596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   destroySound: {fileID: 0}
 --- !u!1001 &6542595283341322821
 PrefabInstance:
@@ -5054,7 +5054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 75
+  health: 400
   destroySound: {fileID: 0}
 --- !u!1001 &7463777587472791844
 PrefabInstance:
@@ -5278,7 +5278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &3282050019945110814 stripped
 Transform:
@@ -5396,7 +5396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 45
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &3189236695957087548 stripped
 Transform:
@@ -5498,7 +5498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 400
   destroySound: {fileID: 0}
 --- !u!1001 &8506914111039703691
 PrefabInstance:
@@ -5664,7 +5664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 400
   destroySound: {fileID: 0}
 --- !u!4 &8554973306339921585 stripped
 Transform:
@@ -5948,7 +5948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec2616f5bcb4184382723d99590a943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 100
   destroySound: {fileID: 0}
 --- !u!4 &4079617597714863229 stripped
 Transform:

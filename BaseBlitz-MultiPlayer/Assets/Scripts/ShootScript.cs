@@ -27,9 +27,9 @@ public class ShootScript : MonoBehaviour
         ammoCount=GameObject.Find("AmmoButton").GetComponent<CollectibleCounter>();
         switch(PlayerPrefs.GetInt("difficulty", 0))
         {
-            case 0: healthReduction = 10; break;
-            case 1: healthReduction = 7; break;
-            case 2: healthReduction = 5; break;
+            case 0: healthReduction = 5; break;
+            case 1: healthReduction = 3; break;
+            case 2: healthReduction = 2; break;
         }
     }
 
