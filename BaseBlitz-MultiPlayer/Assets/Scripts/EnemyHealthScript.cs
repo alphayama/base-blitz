@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealthScript : MonoBehaviour
 {
     [SerializeField] int health;
     [SerializeField] AudioSource destroySound;
+    [SerializeField] Slider healthSlider;
+    Transform playerTf;
+
     //[SerializeField] TextMeshProUGUI healthText;
     
 
@@ -14,6 +18,7 @@ public class EnemyHealthScript : MonoBehaviour
     void Start()
     {
         destroySound = GameObject.FindGameObjectWithTag("DestroySound").GetComponent<AudioSource>();
+        playerTf = GameObject.FindGameObjectWithTag("Player").transform;
         //healthText = GameObject.FindGameObjectWithTag("HealthText").GetComponent<TextMeshProUGUI>();
     }
 
@@ -31,6 +36,7 @@ public class EnemyHealthScript : MonoBehaviour
     public void ReduceHealth(int damage)
     {
         health -= damage;
+        healthSlider.value = health;
         //healthText.transform.position = new Vector3(transform.position.x, transform.position.y + 0.2f, transform.position.z);
         //healthText.transform.LookAt(Camera.main.transform);
         //healthText.text = health.ToString();
