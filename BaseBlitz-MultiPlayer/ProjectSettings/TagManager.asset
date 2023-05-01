@@ -19,6 +19,9 @@ TagManager:
   - Ammunition
   - HealthBar
   - ShieldActiveText
+  - Health
+  - PlayerGun
+  - RocketLauncher
   layers:
   - Default
   - TransparentFX
