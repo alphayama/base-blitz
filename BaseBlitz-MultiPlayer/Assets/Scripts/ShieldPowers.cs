@@ -26,7 +26,7 @@ public class ShieldPowers : MonoBehaviour
             shield.collectibleCount-=1;
             shieldActive=true;
             StartCoroutine(SetFalse());
-            shieldActiveText.enabled=true;;
+            shieldActiveText.enabled=true;
         }
     }
     IEnumerator SetFalse(){

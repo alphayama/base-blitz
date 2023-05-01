@@ -36,11 +36,9 @@ public class EnemyHealthScript : MonoBehaviour
         //healthText.text = health.ToString();
         
     }
+    public void DestroyEnemy()
+    {
+        health =0;
+    }
 
-    
-
-    //IEnumerator HealthDisplay()
-    //{
-    //    yield return new WaitForSeconds(1);
-    //}
 }

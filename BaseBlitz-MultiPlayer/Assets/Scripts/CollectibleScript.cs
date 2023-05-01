@@ -6,8 +6,7 @@ using TMPro;
 
 [RequireComponent(typeof(AudioSource))]
 public class CollectibleScript : MonoBehaviour {
-
-	public enum CollectibleTypes {Shield, Health, Ammunition}; 
+	public enum CollectibleTypes {Shield, Health, Ammunition, Rocket}; 
 	public CollectibleTypes CollectibleType; 
 	public bool rotate; 
 	public float rotationSpeed;
@@ -19,11 +18,13 @@ public class CollectibleScript : MonoBehaviour {
 	CollectibleCounter shield;
 	Transform playerTf;
 	int playerHealthAdd = 500;
+	RocketScript rocketActive;
 
 	void Start () {
 		arCamera= GameObject.FindGameObjectWithTag("Player");	
 		ammo=GameObject.Find("AmmoButton").GetComponent<CollectibleCounter>();
 		shield=GameObject.Find("ShieldButton").GetComponent<CollectibleCounter>();
+		rocketActive=GameObject.Find("RocketActive").GetComponent<RocketScript>();
 		playerTf = GameObject.FindGameObjectWithTag("Player").transform;
 	}
 	
@@ -57,6 +58,10 @@ public class CollectibleScript : MonoBehaviour {
 		}
 		if (CollectibleType == CollectibleTypes.Ammunition) {
 			ammo.collectibleCount+=200;
+		}
+		if (CollectibleType == CollectibleTypes.Rocket) {
+			GameObject.Find("RocketActive").GetComponent<RocketScript>().SetRocketActive();
+			Debug.Log("RocketCollected");
 		}
 		Destroy(gameObject);
 	}

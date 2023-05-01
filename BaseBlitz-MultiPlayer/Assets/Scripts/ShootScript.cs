@@ -15,6 +15,7 @@ public class ShootScript : MonoBehaviour
     CollectibleCounter ammoCount;
     LineRenderer laserLine;
     float fireTimer = 0f;
+    GunfireController rocket;
 
     public GameObject explosionEffect;
 
@@ -25,6 +26,7 @@ public class ShootScript : MonoBehaviour
     {
         laserLine = GetComponent<LineRenderer>();
         ammoCount=GameObject.Find("AmmoButton").GetComponent<CollectibleCounter>();
+        rocket=GameObject.Find("RocketLauncher_origin").GetComponent<GunfireController>();
         switch(PlayerPrefs.GetInt("difficulty", 0))
         {
             case 0: healthReduction = 5; break;
@@ -73,6 +75,37 @@ public class ShootScript : MonoBehaviour
         }
     }
   
+    public void ShootRocket()
+    {
+        shootSound.Play();
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit))
+        {
+            //Debug.Log("In shoot");
+            if (hit.transform.tag == "MilitaryBaseItem")
+            {
+                //Debug.Log("In millitartBase");
+                hit.transform.GetComponent<EnemyHealthScript>().DestroyEnemy();
+
+            }
+
+            else if (hit.transform.parent.tag == "MilitaryBaseItem")
+            {
+                //Debug.Log("In millitartBase");
+                hit.transform.parent.GetComponent<EnemyHealthScript>().DestroyEnemy();
+
+            }
+
+            else if (hit.transform.parent.parent.tag == "MilitaryBaseItem")
+            {
+                //Debug.Log("In millitartBase");
+                hit.transform.parent.parent.GetComponent<EnemyHealthScript>().DestroyEnemy();
+
+            }
+        rocket.FireWeapon();
+        showExplosion();
+        }
+    }
+
 
     public void DrawLaser()
     {
