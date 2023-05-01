@@ -38,6 +38,7 @@ public class AAGunAmmoScript : MonoBehaviour
         {
             if(shield.shieldActive==false){
                 hitPlayerSound.Play();
+                Handheld.Vibrate();
                 playerTf.GetComponent<PlayerHealthBehaviour>().PlayerTakeDamage(playerDamage);
             }
             Destroy(gameObject);
