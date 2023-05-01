@@ -23,11 +23,12 @@ public class ShootButtonPress : MonoBehaviour, IPointerDownHandler, IPointerUpHa
     {
         if(isPressed){
            // ShootScript.Shoot();
-           shootScripts.Shoot();
            if(rocket.rocketActive==true){
                 shootScripts.ShootRocket();
            }
-
+           else{
+                shootScripts.Shoot();
+           }
         }   
     }
     public void OnPointerDown(PointerEventData eventData)

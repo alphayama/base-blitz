@@ -1,9 +1,15 @@
 ﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
 
 
 public class GunfireController : MonoBehaviour
 {
+        ShootScript shoot;
         // --- Audio ---
+        public GameObject shootSystem;
         public AudioClip GunShotClip;
         public AudioClip ReloadClip;
         public AudioSource source;
@@ -41,6 +47,7 @@ public class GunfireController : MonoBehaviour
             if(source != null) source.clip = GunShotClip;
             timeLastFired = 0;
             lastScopeState = scopeActive;
+            shoot=shootSystem.GetComponent<ShootScript>();
         }
 
         private void Update()
@@ -51,13 +58,6 @@ public class GunfireController : MonoBehaviour
                 transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y 
                                                                         + rotationSpeed, transform.localEulerAngles.z);
             }
-
-            // --- Fires the weapon if the delay time period has passed since the last shot ---
-            if (autoFire && ((timeLastFired + shotDelay) <= Time.time))
-            {
-                FireWeapon();
-            }
-
             // --- Toggle scope based on public variable value ---
             if(scope && lastScopeState != scopeActive)
             {
@@ -65,40 +65,23 @@ public class GunfireController : MonoBehaviour
                 scope.SetActive(scopeActive);
             }
         }
-
-        /// <summary>
-        /// Creates an instance of the muzzle flash.
-        /// Also creates an instance of the audioSource so that multiple shots are not overlapped on the same audio source.
-        /// Insert projectile code in this function.
-        /// </summary>
         public void FireWeapon()
         {
-            // --- Keep track of when the weapon is being fired ---
             timeLastFired = Time.time;
-
-            // --- Spawn muzzle flash ---
             var flash = Instantiate(muzzlePrefab, muzzlePosition.transform);
-
-            // --- Shoot Projectile Object ---
             if (projectilePrefab != null)
             {
                 GameObject newProjectile = Instantiate(projectilePrefab, muzzlePosition.transform.position, muzzlePosition.transform.rotation, transform);
             }
-
-            // --- Disable any gameobjects, if needed ---
             if (projectileToDisableOnFire != null)
             {
                 projectileToDisableOnFire.SetActive(false);
-                Invoke("ReEnableDisabledProjectile", 3);
+                Invoke("ReEnableDisabledProjectile", 2);
             }
 
-            // --- Handle Audio ---
             if (source != null)
             {
-                // --- Sometimes the source is not attached to the weapon for easy instantiation on quick firing weapons like machineguns, 
-                // so that each shot gets its own audio source, but sometimes it's fine to use just 1 source. We don't want to instantiate 
-                // the parent gameobject or the program will get stuck in a loop, so we check to see if the source is a child object ---
-                if(source.transform.IsChildOf(transform))
+            if(source.transform.IsChildOf(transform))
                 {
                     source.Play();
                 }

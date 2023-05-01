@@ -16,9 +16,8 @@ public class ShootScript : MonoBehaviour
     LineRenderer laserLine;
     float fireTimer = 0f;
     GunfireController rocket;
-
+    public GameObject rocketObj;
     public GameObject explosionEffect;
-
     int healthReduction = 10;
 
     // Start is called before the first frame update
@@ -26,7 +25,7 @@ public class ShootScript : MonoBehaviour
     {
         laserLine = GetComponent<LineRenderer>();
         ammoCount=GameObject.Find("AmmoButton").GetComponent<CollectibleCounter>();
-        rocket=GameObject.Find("RocketLauncher_origin").GetComponent<GunfireController>();
+        rocket=GameObject.Find("RocketLaunch_origin").GetComponent<GunfireController>();
         switch(PlayerPrefs.GetInt("difficulty", 0))
         {
             case 0: healthReduction = 5; break;
@@ -113,7 +112,7 @@ public class ShootScript : MonoBehaviour
         fireTimer += Time.deltaTime;
         fireTimer = 0;
         //laserLine.SetPosition(0, laserOrigin.position);
-        laserLine.SetPosition(0, new Vector3(0.3f, 0.3f, 0));
+        laserLine.SetPosition(0, new Vector3(0.1f, 0.1f, 0));
         //Vector3 rayOrigin = playerCamera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0));
         Vector3 rayOrigin = playerCamera.ViewportToWorldPoint(new Vector3(0f, 0f, 0));
 

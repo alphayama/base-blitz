@@ -1566,6 +1566,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5132421378753362573, guid: f26add0b8561051438426890f3bd0f19, type: 3}
+      propertyPath: rocketPrefab
+      value: 
+      objectReference: {fileID: 6538877894967375578, guid: 97b1aff2348fc4472861cbcf3bc88bce, type: 3}
+    - target: {fileID: 5132421378753362573, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: distanceThreshold
       value: 0.8
       objectReference: {fileID: 0}
@@ -5998,8 +6002,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5132421378753362573, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: rotate
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5132421378753362573, guid: f26add0b8561051438426890f3bd0f19, type: 3}
+      propertyPath: rocketPrefab
+      value: 
+      objectReference: {fileID: 6538877894967375578, guid: 97b1aff2348fc4472861cbcf3bc88bce, type: 3}
     - target: {fileID: 5132421378753362573, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: distanceThreshold
       value: 0.8

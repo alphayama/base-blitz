@@ -6,12 +6,10 @@ using TMPro;
 public class RocketScript : MonoBehaviour
 {
     public TextMeshProUGUI rocketActiveText;
-    ShootScript shootRocket;
     public bool rocketActive;
     // Start is called before the first frame update
     void Start()
     {
-        shootRocket=GameObject.Find("Gun1").GetComponent<ShootScript>();
         rocketActiveText.enabled= false;
         rocketActive=false;
     }
@@ -23,7 +21,7 @@ public class RocketScript : MonoBehaviour
         // shootRocket.ShootRocket();
     }
     IEnumerator SetFalse(){
-        yield return new WaitForSeconds(10); 
+        yield return new WaitForSeconds(5); 
         rocketActiveText.enabled=false;
         rocketActive=false;
     }
