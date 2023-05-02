@@ -35,48 +35,48 @@ public class EnemyHealthScript : MonoBehaviour
             Destroy(gameObject);
         }
 
-        // if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit))
-        // {
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit))
+        {
         //    Debug.Log("----------------------isPointing---------------------------");
         //    Debug.Log("Hiiittttt----"+hit.transform.name);  
         //    Debug.Log("oobbjjjj----"+gameObject.name);
-        //    if (hit.transform.name == gameObject.name )
-        //     {
-        //         objHealthUI.transform.LookAt(playerTf);
-        //         objHealthUI.SetActive(true);
-        //        Debug.Log(objHealthUI);
-        //     }
-        //     else if (hit.transform.tag == "MilitaryBaseItem")
-        //     {
-        //         Debug.Log("In millitartBase");
-        //          objHealthUI.transform.LookAt(playerTf);
-        //         objHealthUI.SetActive(true);
-        //         StartCoroutine(ShowHealthBar());
+           if (hit.transform.name == gameObject.name )
+            {
+            //     objHealthUI.transform.LookAt(playerTf);
+            //     objHealthUI.SetActive(true);
+            //    Debug.Log(objHealthUI);
+            }
+            else if (hit.transform.tag == "MilitaryBaseItem")
+            {
+                // Debug.Log("In millitartBase");
+                //  objHealthUI.transform.LookAt(playerTf);
+                // objHealthUI.SetActive(true);
+                // StartCoroutine(ShowHealthBar());
 
-        //     }
+            }
 
-        //     else if (hit.transform.parent.tag == "MilitaryBaseItem")
-        //     {
-        //         Debug.Log("In millitartBase");
-        //          objHealthUI.transform.LookAt(playerTf);
-        //         objHealthUI.SetActive(true);
-        //         StartCoroutine(ShowHealthBar());
+            else if (hit.transform.parent.tag == "MilitaryBaseItem")
+            {
+                // Debug.Log("In millitartBase");
+                //  objHealthUI.transform.LookAt(playerTf);
+                // objHealthUI.SetActive(true);
+                // StartCoroutine(ShowHealthBar());
 
-        //     }
+            }
 
-        //     else if (hit.transform.parent.parent.tag == "MilitaryBaseItem")
-        //     {
-        //         Debug.Log("In millitartBase");
-        //         objHealthUI.transform.LookAt(playerTf);
-        //         objHealthUI.SetActive(true);
-        //         StartCoroutine(ShowHealthBar());
+            else if (hit.transform.parent.parent.tag == "MilitaryBaseItem")
+            {
+                // Debug.Log("In millitartBase");
+                // objHealthUI.transform.LookAt(playerTf);
+                // objHealthUI.SetActive(true);
+                // StartCoroutine(ShowHealthBar());
 
-        //     }
-        //     else{
-        //         objHealthUI.SetActive(false);
-        //     }
+            }
+            else{
+                objHealthUI.SetActive(false);
+            }
             
-        // }
+        }
     }
 
     public void ReduceHealth(int damage)
@@ -96,13 +96,14 @@ public class EnemyHealthScript : MonoBehaviour
 
     public void DestroyEnemy()
     {
-        health =0;
+        health = 0;
     }
 
     public void ShowHealthBarCaller()
     {
         objHealthUI.transform.LookAt(playerTf);
-        StartCoroutine(ShowHealthBar());
+        objHealthUI.SetActive(true);
+        // StartCoroutine(ShowHealthBar());
     }
 
     IEnumerator ShowHealthBar()
