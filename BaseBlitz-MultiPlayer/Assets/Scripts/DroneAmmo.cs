@@ -22,9 +22,9 @@ public class DroneAmmo : MonoBehaviour
         shield=GameObject.Find("ShieldButton").GetComponent<ShieldPowers>();
         switch (PlayerPrefs.GetInt("difficulty", 0))
         {
-            case 0: playerDamage = 5; break;
-            case 1: playerDamage = 10; break;
-            case 2: playerDamage = 15; break;
+            case 0: playerDamage = 1; break;
+            case 1: playerDamage = 5; break;
+            case 2: playerDamage = 9; break;
         }
     }
 
