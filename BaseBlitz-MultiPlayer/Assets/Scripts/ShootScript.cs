@@ -51,6 +51,7 @@ public class ShootScript : MonoBehaviour
             {
                 //Debug.Log("In millitartBase");
                 hit.transform.GetComponent<EnemyHealthScript>().ReduceHealth(healthReduction);
+                hit.transform.GetComponent<EnemyHealthScript>().ShowHealthBarCaller();
 
             }
 
@@ -58,6 +59,7 @@ public class ShootScript : MonoBehaviour
             {
                 //Debug.Log("In millitartBase");
                 hit.transform.parent.GetComponent<EnemyHealthScript>().ReduceHealth(healthReduction);
+                hit.transform.parent.GetComponent<EnemyHealthScript>().ShowHealthBarCaller();
 
             }
 
@@ -65,8 +67,10 @@ public class ShootScript : MonoBehaviour
             {
                 //Debug.Log("In millitartBase");
                 hit.transform.parent.parent.GetComponent<EnemyHealthScript>().ReduceHealth(healthReduction);
+                hit.transform.parent.parent.GetComponent<EnemyHealthScript>().ShowHealthBarCaller();
 
             }
+
         }
         DrawLaser();
         showExplosion();

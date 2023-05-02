@@ -22,6 +22,7 @@ TagManager:
   - Health
   - PlayerGun
   - RocketLauncher
+  - ObjHealth
   layers:
   - Default
   - TransparentFX
