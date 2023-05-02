@@ -15,9 +15,10 @@ public class ProgressScript : MonoBehaviour
         numOfEnemyUnitsDestroyed = 0;
     }
 
-    public static void UpdateProgress()
+    public static void UpdateProgress(bool isDrone = false)
     {
-        numOfEnemyUnitsDestroyed++;
+        if (!isDrone)
+            numOfEnemyUnitsDestroyed++;
         
     }
 
