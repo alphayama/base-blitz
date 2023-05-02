@@ -12,6 +12,7 @@ public class EnemyHealthScript : MonoBehaviour
     [SerializeField] Slider healthSlider;
     Transform playerTf; 
     [SerializeField] GameObject objHealthUI;
+    [SerializeField] bool isDrone = false;
     RaycastHit hit;
 
 
@@ -31,7 +32,7 @@ public class EnemyHealthScript : MonoBehaviour
         if (health <= 0)
         {
             destroySound.Play();
-            ProgressScript.UpdateProgress();
+            ProgressScript.UpdateProgress(isDrone);
             Destroy(gameObject);
         }
 

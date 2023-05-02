@@ -129,6 +129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 20
   destroySound: {fileID: 0}
+  healthSlider: {fileID: 0}
+  objHealthUI: {fileID: 0}
+  isDrone: 1
 --- !u!195 &1024605350042822830
 NavMeshAgent:
   m_ObjectHideFlags: 0
