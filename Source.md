@@ -26,6 +26,7 @@ Note:
 8. https://assetstore.unity.com/packages/3d/vehicles/air/transport-helicopter-3911
 9. https://assetstore.unity.com/packages/3d/props/simple-collectibles-pack-123092
 10. https://assetstore.unity.com/packages/tools/particles-effects/true-explosions-21893
+11. https://assetstore.unity.com/packages/3d/props/guns/stylized-rocket-launcher-complete-kit-with-visual-effects-and-so-178718
 
 ## Audio Sources
 1. Flak_Shot.wav by kantouth - https://freesound.org/people/kantouth/sounds/104399/
