@@ -9,7 +9,7 @@
 7.  **Laser** position modified.
 8.  **Outline** provided for the assignment does not work with complex objects. We did try adding a hue to the object but since some were dark in colour it was difficult to see them.
 
-**Usability Isuues from preliminary prototype**
+**Usability Isuues resolved from preliminary prototype**
 
 1. Game abruptly closes (Home Button)
 2. Could have a resume and pause option while playing. (Pause Menu)
