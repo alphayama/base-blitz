@@ -1,6 +1,12 @@
 # base-blitz
 An Augmented Reality (AR) game for Android built on Unity Engine
 
+## Overview of the repository
+- **BaseBlitz-Preliminary** contains a preliminary version of the project.
+- **BaseBlitz-Final** contains the final prototype version of the project with an implementation of Unity AI.
+- [Source.md](Source.md) contains links to assets used in the project and resources we referred to implement this project.
+- [Updates.md](Updates.md) contains changes we made in Final prototype version on the basis of feedback that we received for the Preliminary prototype.
+
 ## SDKs
 Our project uses the AR Foundation, AR Core (Android) and AR Kit packages for providing Augmented Reality functionality.
 
