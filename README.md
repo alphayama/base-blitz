@@ -20,4 +20,6 @@ User will use their phone to scan an AR Marker (QR Code). We have attached a cop
 
 ## YouTube Link
 
-[https://youtu.be/6qMpQg-wkOw](https://youtu.be/6qMpQg-wkOw)
+[https://youtu.be/1JWSg6RwANg](https://youtu.be/1JWSg6RwANg)
+
+### A copy of the QR code (AR Marker) is provided on the Next Page.
