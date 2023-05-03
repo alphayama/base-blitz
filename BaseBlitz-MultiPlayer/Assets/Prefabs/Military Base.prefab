@@ -11300,6 +11300,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 3322282985136984756}
   objHealthUI: {fileID: 4387562232521439273}
+  isDrone: 0
 --- !u!4 &218374932183409401 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 426358, guid: 3cc32b211ba11174199a64a41ce904c2, type: 3}
@@ -11334,15 +11335,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4747155658115944, guid: a5ad3b53c234b9040b754b2c2c9d8fc6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.000000032487
+      value: 1.508
       objectReference: {fileID: 0}
     - target: {fileID: 4747155658115944, guid: a5ad3b53c234b9040b754b2c2c9d8fc6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.03
+      value: 1.66
       objectReference: {fileID: 0}
     - target: {fileID: 4747155658115944, guid: a5ad3b53c234b9040b754b2c2c9d8fc6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.85
+      value: -2.257
       objectReference: {fileID: 0}
     - target: {fileID: 4747155658115944, guid: a5ad3b53c234b9040b754b2c2c9d8fc6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11547,6 +11548,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 1268199044035082098}
   objHealthUI: {fileID: 116937610195297735}
+  isDrone: 0
 --- !u!4 &768806624909665042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1107195833752575226, guid: 221684c5dd8d52340980e377cd3d22e5, type: 3}
@@ -11704,6 +11706,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 9016211512066844850}
   objHealthUI: {fileID: 4206128247358830559}
+  isDrone: 0
 --- !u!1001 &680162795064277642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11803,6 +11806,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 9022549974074432969}
   objHealthUI: {fileID: 2205398095786412638}
+  isDrone: 0
 --- !u!1 &5406252580246243039 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4789211385024478293, guid: eae8713f55e1827478ecfd380f94070d, type: 3}
@@ -11921,6 +11925,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 4158730014827944642}
   objHealthUI: {fileID: 3366240459431437879}
+  isDrone: 0
 --- !u!1001 &867798056489786034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12041,6 +12046,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 4122039664518075933}
   objHealthUI: {fileID: 5101253347225133415}
+  isDrone: 0
 --- !u!1001 &1741734621098627148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12140,6 +12146,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 2534451100303662104}
   objHealthUI: {fileID: 5118569551217055413}
+  isDrone: 0
 --- !u!1001 &1794052859382475297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12260,6 +12267,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 1816463460551701591}
   objHealthUI: {fileID: 5796056229239240331}
+  isDrone: 0
 --- !u!1001 &1802140577226020030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12305,15 +12313,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3826672958807468583, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2621106
+      value: 1.73
       objectReference: {fileID: 0}
     - target: {fileID: 3826672958807468583, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.261689
+      value: 2.02
       objectReference: {fileID: 0}
     - target: {fileID: 3826672958807468583, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7023947
+      value: 2.39
       objectReference: {fileID: 0}
     - target: {fileID: 3826672958807468583, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12365,7 +12373,7 @@ PrefabInstance:
       objectReference: {fileID: 6538877894967375578, guid: 97b1aff2348fc4472861cbcf3bc88bce, type: 3}
     - target: {fileID: 5132421378753362573, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: distanceThreshold
-      value: 0.8
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2205214468985690845, guid: f26add0b8561051438426890f3bd0f19, type: 3}
@@ -12526,6 +12534,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 105446694534238026}
   objHealthUI: {fileID: 5345517399000506124}
+  isDrone: 0
 --- !u!1001 &2143199093317404910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12699,6 +12708,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 4913985116359726638}
   objHealthUI: {fileID: 7875695295753522859}
+  isDrone: 0
 --- !u!1001 &2347439385797364366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12881,6 +12891,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 9178972826642296107}
   objHealthUI: {fileID: 6030275983499353804}
+  isDrone: 0
 --- !u!4 &3336548212027940746 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1107195833752575226, guid: 221684c5dd8d52340980e377cd3d22e5, type: 3}
@@ -13070,6 +13081,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 3268553749534155006}
   objHealthUI: {fileID: 8398281741753071761}
+  isDrone: 0
 --- !u!4 &7050994121400916348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d2e223bb697d8be4bb8ade4cd8240c56, type: 3}
@@ -13190,6 +13202,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 4386030283427547709}
   objHealthUI: {fileID: 4074372822791012240}
+  isDrone: 0
 --- !u!4 &7985632288314524439 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d2e223bb697d8be4bb8ade4cd8240c56, type: 3}
@@ -13294,6 +13307,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 1566576977218303253}
   objHealthUI: {fileID: 3463788522316499148}
+  isDrone: 0
 --- !u!1001 &3528580413102047054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13476,6 +13490,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 1992228793292039611}
   objHealthUI: {fileID: 5981943792769650626}
+  isDrone: 0
 --- !u!4 &4406982327332573985 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1107195833752575226, guid: 221684c5dd8d52340980e377cd3d22e5, type: 3}
@@ -13596,6 +13611,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 955832986359132886}
   objHealthUI: {fileID: 4418772251752467907}
+  isDrone: 0
 --- !u!4 &8303572764903702900 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d2e223bb697d8be4bb8ade4cd8240c56, type: 3}
@@ -13716,6 +13732,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 2433727946836905315}
   objHealthUI: {fileID: 1243296098154020853}
+  isDrone: 0
 --- !u!4 &9081107621575170124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d2e223bb697d8be4bb8ade4cd8240c56, type: 3}
@@ -13836,6 +13853,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 405841623206462437}
   objHealthUI: {fileID: 2893754701706162938}
+  isDrone: 0
 --- !u!4 &9129200316859057726 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d2e223bb697d8be4bb8ade4cd8240c56, type: 3}
@@ -14014,6 +14032,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 3619977455862706530}
   objHealthUI: {fileID: 1073109517236867180}
+  isDrone: 0
 --- !u!1001 &4508508113737228827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14113,6 +14132,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 5829376423697918389}
   objHealthUI: {fileID: 2140451896292194249}
+  isDrone: 0
 --- !u!1001 &4773851249979048371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14587,6 +14607,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 6386234186460302746}
   objHealthUI: {fileID: 9163491532963488033}
+  isDrone: 0
 --- !u!1001 &5786567920008164035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14886,6 +14907,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 0}
   objHealthUI: {fileID: 0}
+  isDrone: 0
 --- !u!1001 &6061850849061397577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14980,6 +15002,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 6491278442927251606}
   objHealthUI: {fileID: 3738423341481628018}
+  isDrone: 0
 --- !u!4 &6592576631517821107 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1107195833752575226, guid: 221684c5dd8d52340980e377cd3d22e5, type: 3}
@@ -15018,7 +15041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4249589822194966, guid: 9867510fa3e6d11479b56ff45cf8b2ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.03
+      value: 2.77
       objectReference: {fileID: 0}
     - target: {fileID: 4249589822194966, guid: 9867510fa3e6d11479b56ff45cf8b2ca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15167,6 +15190,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 0}
   objHealthUI: {fileID: 0}
+  isDrone: 0
 --- !u!1001 &6330838152935021647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15363,6 +15387,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 7583484187966374342}
   objHealthUI: {fileID: 1990683453266486873}
+  isDrone: 0
 --- !u!1001 &6457260974006801385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15462,6 +15487,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 8285791584890088991}
   objHealthUI: {fileID: 2646442600164275618}
+  isDrone: 0
 --- !u!1001 &6473409079780083134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15582,6 +15608,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 7598214573437762442}
   objHealthUI: {fileID: 1300736562240218933}
+  isDrone: 0
 --- !u!1001 &6542595283341322821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15619,11 +15646,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4262163473691232, guid: 9568f15e6607c70469b5b2657c7cd0b3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.05
+      value: 2.58
       objectReference: {fileID: 0}
     - target: {fileID: 4262163473691232, guid: 9568f15e6607c70469b5b2657c7cd0b3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.64
+      value: 0.92
       objectReference: {fileID: 0}
     - target: {fileID: 4262163473691232, guid: 9568f15e6607c70469b5b2657c7cd0b3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16120,6 +16147,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 3223235801953882963}
   objHealthUI: {fileID: 2497142638969514520}
+  isDrone: 0
 --- !u!1001 &7463777587472791844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16161,7 +16189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4262163473691232, guid: 9568f15e6607c70469b5b2657c7cd0b3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.64
+      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: 4262163473691232, guid: 9568f15e6607c70469b5b2657c7cd0b3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16346,6 +16374,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 3529065700612080015}
   objHealthUI: {fileID: 933262185661013843}
+  isDrone: 0
 --- !u!4 &3282050019945110814 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d2e223bb697d8be4bb8ade4cd8240c56, type: 3}
@@ -16466,6 +16495,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 7195072743622895168}
   objHealthUI: {fileID: 5868635927982376201}
+  isDrone: 0
 --- !u!4 &3189236695957087548 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d2e223bb697d8be4bb8ade4cd8240c56, type: 3}
@@ -16570,6 +16600,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 5761510597138754516}
   objHealthUI: {fileID: 2842435998587658295}
+  isDrone: 0
 --- !u!1001 &8506914111039703691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16603,7 +16634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4747155658115944, guid: a5ad3b53c234b9040b754b2c2c9d8fc6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.46
+      value: 2.44
       objectReference: {fileID: 0}
     - target: {fileID: 4747155658115944, guid: a5ad3b53c234b9040b754b2c2c9d8fc6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16738,6 +16769,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 1660523466829922558}
   objHealthUI: {fileID: 4414757729277907653}
+  isDrone: 0
 --- !u!4 &8554973306339921585 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 426358, guid: 3cc32b211ba11174199a64a41ce904c2, type: 3}
@@ -16870,7 +16902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3826672958807468583, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.23
+      value: -2.06
       objectReference: {fileID: 0}
     - target: {fileID: 3826672958807468583, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16878,7 +16910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3826672958807468583, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.2
+      value: 1.89
       objectReference: {fileID: 0}
     - target: {fileID: 3826672958807468583, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16930,7 +16962,7 @@ PrefabInstance:
       objectReference: {fileID: 6538877894967375578, guid: 97b1aff2348fc4472861cbcf3bc88bce, type: 3}
     - target: {fileID: 5132421378753362573, guid: f26add0b8561051438426890f3bd0f19, type: 3}
       propertyPath: distanceThreshold
-      value: 0.8
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3643882369342148042, guid: f26add0b8561051438426890f3bd0f19, type: 3}
@@ -17188,6 +17220,7 @@ MonoBehaviour:
   destroySound: {fileID: 0}
   healthSlider: {fileID: 7965207284534961218}
   objHealthUI: {fileID: 5783913801306688467}
+  isDrone: 0
 --- !u!4 &4079617597714863229 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d2e223bb697d8be4bb8ade4cd8240c56, type: 3}
