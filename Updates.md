@@ -7,6 +7,7 @@
 5.  **Drones** (IntelligentNPCs) were added.  
 6.  **Rocket Launcher** was added as a collectible. It allows the user to have more than one type of ammunition and it destroys the objects on the base in one shot. It is active for 5 seconds.
 7.  **Laser** position modified.
+8.  **Outline** provided for the assignment does not work with complex objects. We did try adding a hue to the object but since some were dark in colour it was difficult to see them.
 
 **Usability Isuues from preliminary prototype**
 
@@ -18,3 +19,4 @@
 6. Can only shoot one bullet when pressing the shoot button. Player should be allowed to shoot continuously. (Shoot Button)
 7. Only one ammo type. There could be more fire options like rockets.(Rocket Launcher)
 8. The shooting ray was abrupt when the device location was not close. It didn't look like shooting in some phone positions. That can be improved. You can add a gun object as well if the scene looks good. (Laser)
+9. Outline on the game objects not visible (Outline)
