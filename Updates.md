@@ -7,7 +7,7 @@
 5.  **Drones** (IntelligentNPCs) were added.  
 6.  **Rocket Launcher** was added as a collectible. It allows the user to have more than one type of ammunition and it destroys the objects on the base in one shot. It is active for 5 seconds.
 7.  **Laser** position modified.
-8.  **Outline** provided for the assignment does not work with complex objects. We did try adding a hue to the object but since some objecrs were darker in color in color it was difficult to see them.
+8.  **Outline** provided for the assignment does not work with complex objects. We did try adding a hue to the object but since some objecrs were darker in color it was difficult to see.
 
 **Usability Isuues resolved from preliminary prototype**
 
