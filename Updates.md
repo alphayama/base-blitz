@@ -20,3 +20,4 @@
 7. Only one ammo type. There could be more fire options like rockets.(Rocket Launcher)
 8. The shooting ray was abrupt when the device location was not close. It didn't look like shooting in some phone positions. That can be improved. You can add a gun object as well if the scene looks good. (Laser)
 9. Outline on the game objects not visible (Outline)
+10. Outline the objects to be destroyed.  (Outline)
