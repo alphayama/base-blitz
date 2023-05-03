@@ -37,4 +37,4 @@ User will use their phone to scan an AR Marker (QR Code). We have attached a cop
 
 [https://youtu.be/1uR7S-nKAyU](https://youtu.be/1uR7S-nKAyU)
 
-### QR code (AR Marker) is in .
+### QR code (AR Marker) is in [qr-code.png](qr-code.png).
