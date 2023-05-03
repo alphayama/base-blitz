@@ -1,6 +1,21 @@
 # base-blitz
 An Augmented Reality (AR) game for Android built on Unity Engine
 
+## SDKs
+Our project uses the AR Foundation, AR Core (Android) and AR Kit packages for providing Augmented Reality functionality.
+
+You can download the packages from the Unity Package Manager using the following steps:
+
+1. In Unity Editor, go to Windows > Package Manager.
+2. Select _Packages: Unity registry_ option from the dropdown.
+3. Search for AR in the search box.
+4. Install AR Foundation. 
+5. Install ARCore XR Plugin for Android and ARKit XR Plugin for iOS.
+
+Note: 
+- Make sure the version numbers for AR Foundation, ARCore XR Plugin and ARKit XR Plugin are same. 
+- ARKit requires XCode installed on your system.
+
 ## Scenes
 1. **StartMenu** - The game starts with StartMenu scene. This scene contains the 4 buttons - Play, Settings, Help, Quit. The Play button loads the next scene - ARExample. The Settings button allows the user to choose the difficulty level. There are 3 levels in the game- easy, medium and hard. Eaach difficulty level has a different time limit to complete the game. The Help button provides the user with basic instructions and details about collectibles. The Quit button exits the application.
 
@@ -18,8 +33,8 @@ User will use their phone to scan an AR Marker (QR Code). We have attached a cop
 - There are 2 on-screen buttons: Shoot and Shield (represented by a Shield icon). Shield grants temporary invincibility for few seconds.
 - To collect the collectibles, just take your phone near them.
 
-## YouTube Link
+## Demo Video
 
-[https://youtu.be/1JWSg6RwANg](https://youtu.be/1JWSg6RwANg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1uR7S-nKAyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### A copy of the QR code (AR Marker) is provided on the Next Page.
