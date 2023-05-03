@@ -35,6 +35,6 @@ User will use their phone to scan an AR Marker (QR Code). We have attached a cop
 
 ## Demo Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1uR7S-nKAyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[https://youtu.be/1uR7S-nKAyU](https://youtu.be/1uR7S-nKAyU)
 
 ### A copy of the QR code (AR Marker) is provided on the Next Page.
