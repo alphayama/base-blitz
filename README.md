@@ -8,6 +8,12 @@ An Augmented Reality (AR) game for Android built on Unity Engine for the CS6334 
 - [Source.md](Source.md) contains links to assets used in the project and resources we referred to implement this project.
 - [Updates.md](Updates.md) contains changes we made in Final prototype version on the basis of feedback that we received for the Preliminary prototype.
 
+## Collaborators
+- Ojal Bhatnagar
+- Ashish Pratap
+- Sphoorti Kulkarni
+- Prayas Patnaik
+
 ## AR Foundation, AR Core (Android) and AR Kit
 Our project uses the AR Foundation, AR Core (Android) and AR Kit packages for providing Augmented Reality functionality.
 
