@@ -4,7 +4,6 @@ An Augmented Reality (AR) game for Android built on Unity Engine for the CS6334 
 ## Overview of the repository
 - **BaseBlitz-Preliminary** contains a preliminary version of the project.
 - **BaseBlitz-Final** contains the final prototype version of the project with an implementation of Unity AI.
-- **APKs** contains the Android Application Packages (APKs) for the Preliminary and Final prototypes
 - [Source.md](Source.md) contains links to assets used in the project and resources we referred to implement this project.
 - [Updates.md](Updates.md) contains changes we made in Final prototype version on the basis of feedback that we received for the Preliminary prototype.
 
@@ -13,6 +12,9 @@ An Augmented Reality (AR) game for Android built on Unity Engine for the CS6334 
 - Ashish Pratap
 - Sphoorti Kulkarni
 - Prayas Patnaik
+
+## Prototype APKs
+The Android Application Packages (APKs) for the Preliminary and Final prototypes are available in the [Releases](https://github.com/alphayama/base-blitz/releases/tag/Prototype) section.
 
 ## AR Foundation, AR Core (Android) and AR Kit
 Our project uses the AR Foundation, AR Core (Android) and AR Kit packages for providing Augmented Reality functionality.
